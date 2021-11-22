@@ -4,15 +4,35 @@ import Histori from './components/historias/histori'
 import Pincard from "./components/carta/pincard";
 import Recomiendo from "./components/recomendaciones/recomendacion";
 import Media from 'react-media';
+import {useState} from 'react';
+import firebase from '@firebase/app-compat';
+import Login from './components/LoginLayout/Login';
 
 const App = () => {
-  return <div>
-      <Media query="(max-width: 999px)">
-        {(matches)=>{
-            return matches ? Noexiste() : ExsiteS();
-        }}
-      </Media>
-    </div>;
+  const [isUserSignIn,setIsUserSignIn] = useState(false);
+  firebase.auth().onAuthStateChanged((user)=>{
+    console.log(isUserSignIn);
+    console.log(user);
+    if (user) {
+      return setIsUserSignIn(true)
+    } else{
+      setIsUserSignIn(false)
+    }
+  })
+  if (isUserSignIn === true) {
+      return( <div>
+        <Media query="(max-width: 999px)">
+          {(matches)=>{
+              return matches ? Noexiste() : ExsiteS();
+          }}
+        </Media>
+      </div>);
+  } else if(isUserSignIn === false){
+    return( <div>
+      <Login/>
+    </div>);
+  }
+  
 };
 
 const ExsiteS = () => {
