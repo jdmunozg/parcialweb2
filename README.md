@@ -90,6 +90,9 @@ Este macro componenente cuenta con 4 componenetes internos, esto son:
 
 ### carta
 Este macro componenente cuenta con 3 componenetes internos y un macro componente interno, esto son:
-## * Hola
+* cabecera
+* footer
+* pincard
+## * contentFooter
 
 
