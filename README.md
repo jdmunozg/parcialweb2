@@ -72,11 +72,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Learn more
 
 ## Components
-Este proyecto es un replica del diseño de la red social Instagram. Para este, utilizamos 5 componentes, estos son: 
+Este proyecto es un replica del diseño de la red social Instagram. Esta cuenta adicionalmente con un login que permite autenticación con Google. Para este, utilizamos 5 componentes, estos son: 
 * cabecera 
 * carta
 * historias
 * LoginLayout
 * recomendaciones
 
+### hola
 
