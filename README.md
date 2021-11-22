@@ -72,7 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Learn more
 
 ## Components
-Este proyecto es un replica del diseño de la red social Instagram. Esta cuenta adicionalmente con un login que permite autenticación con Google. Para este, utilizamos 5 componentes, estos son: 
+Este proyecto es un replica del diseño de la red social Instagram. Esta cuenta adicionalmente con un login que permite autenticación con Google. Para este, utilizamos 5 macro componentes, estos son: 
 * cabecera 
 * carta
 * historias
@@ -81,5 +81,15 @@ Este proyecto es un replica del diseño de la red social Instagram. Esta cuenta 
 
 A continuación presentaremos uno a uno los componenetes:
 
-*** hola
+### cabecera
+Este macro componenente cuenta con 4 componenetes internos, esto son:
+* botonesder
+* botonesiq
+* buscardor
+* header
+
+### carta
+Este macro componenente cuenta con 3 componenetes internos y un macro componente interno, esto son:
+## * Hola
+
 
