@@ -79,5 +79,7 @@ Este proyecto es un replica del diseño de la red social Instagram. Esta cuenta 
 * LoginLayout
 * recomendaciones
 
-### hola
+A continuación presentaremos uno a uno los componenetes:
+
+*** hola
 
