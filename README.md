@@ -93,6 +93,6 @@ Este macro componenente cuenta con 3 componenetes internos y un macro componente
 * cabecera
 * footer
 * pincard
-## * contentFooter
+#### contentFooter
 
 
