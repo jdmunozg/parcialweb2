@@ -87,7 +87,7 @@ class CirculosHistoria extends React.Component{
         if(this.state.width <= 688){
             return {
                 width:'97vw',
-                height:'20px',
+                height:'30px',
                 display:'flex',
                 flexDirection:'row',
                 alignContent:'center',
@@ -95,12 +95,15 @@ class CirculosHistoria extends React.Component{
                 border: 'solid 1px #ccc',
                 padding:'40px 0',
                 backgroundColor:'white',
+                overflow: 'scroll',
+                overflowY:'hidden',
+                marginBottom:'2vh',
             }
         }
         else if(this.state.width >= 623 && this.state.width <= 1000){
             return {
                 width:'520px',
-                height:'20px',
+                height:'30px',
                 display:'flex',
                 flexDirection:'row',
                 alignContent:'center',
@@ -108,12 +111,14 @@ class CirculosHistoria extends React.Component{
                 border: 'solid 1px #ccc',
                 padding:'40px 0',
                 backgroundColor:'white',
+                overflow: 'scroll',
+                overflowY:'hidden',
             }
         }
         else {
             return {
                 width:'600px',
-                height:'20px',
+                height:'30px',
                 display:'flex',
                 flexDirection:'row',
                 alignContent:'center',
@@ -122,6 +127,8 @@ class CirculosHistoria extends React.Component{
                 borderRadius:'3px',
                 padding:'40px 0',
                 backgroundColor:'white',
+                overflow: 'scroll',
+                overflowY:'hidden',
             }
         }
     }
@@ -134,6 +141,13 @@ class CirculosHistoria extends React.Component{
                     <Circule title ='nsalazarv' image = 'https://picsum.photos/180/200'/>
                     <Circule title ='yamunozg' image = 'https://picsum.photos/200/180'/>
                     <Circule title ='aygaviriar' image = 'https://picsum.photos/170/200'/>
+                    <Circule title ='aygaviriar' image = 'https://picsum.photos/170/200'/>
+                    <Circule title ='aygaviriar' image = 'https://picsum.photos/170/200'/>
+                    <Circule title ='aygaviriar' image = 'https://picsum.photos/170/200'/>
+                    <Circule title ='aygaviriar' image = 'https://picsum.photos/170/200'/>
+                    <Circule title ='aygaviriar' image = 'https://picsum.photos/170/200'/>
+
+
             </div>
         )
     }

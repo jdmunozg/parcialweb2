@@ -55,9 +55,20 @@ class Actualizar extends React.Component{
                 cursor:'pointer',
             }
         }
-        else {
+        else if(this.state.width >= 1101 && this.state.width <= 1900){
             return {
                 width:'27vw',
+                height:'36px',
+                backgroundColor:'white',
+                display:'flex',
+                alignItems:'center',
+                alignContent:'center',
+                cursor:'pointer',
+            }
+        }
+        else if(this.state.width >= 1900){
+            return {
+                width:'400px',
                 height:'36px',
                 backgroundColor:'white',
                 display:'flex',

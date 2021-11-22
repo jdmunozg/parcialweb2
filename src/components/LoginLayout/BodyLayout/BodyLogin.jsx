@@ -9,7 +9,7 @@ const styles = {
     general:{
         width:'100vw',
         height:'100vh',
-        backgroundColor:'#FAFAFA',
+        backgroundColor:'white',
         display:'flex',
         flexFlow:'row nowrap',
         justifyContent:'center'
@@ -17,7 +17,7 @@ const styles = {
     box_content:{
         width:'60vw',
         height:'100%',
-        backgroundColor:'trasnparent',
+        backgroundColor:'white',
         display:'flex',
         flexFlow:'colum',
         justifyContent:'space-around',
@@ -32,12 +32,12 @@ const styles = {
     box_img:{
         width:'50%',
         height:'90%',
-        backgroundColor:'trasnparent',
+        backgroundColor:'white',
     },
     letters:{
         width:'100%',
         height:'30%',
-        backgroundColor:'trasnparent',
+        backgroundColor:'white',
         display:'flex',
         flexFlow:'row',
         justifyContent:'center',
@@ -45,12 +45,13 @@ const styles = {
     },
     cellphones:{
         width:'100%',
-        height:'100%'
+        height:'100%',
+        backgroundColor:'white',
     },
     bodyRegister:{
         width:'100%',
         height:'40%',
-        backgroundColor:'trasnparent',
+        backgroundColor:'white',
         display:'flex',
         flexFlow:'column',
         justifyContent:'space-evenly',
@@ -60,7 +61,7 @@ const styles = {
         width:'7vw',
         height:'14vh',
         borderRadius:'50%',
-        backgroundColor:'grey',
+        backgroundColor:'white',
         display:'flex',
         alignSelf:'center'
     },
@@ -77,8 +78,8 @@ const styles = {
 const signIn = () =>{
     const provider = new firebase.auth.GoogleAuthProvider();
     signInWithPopup(getAuth(),provider).then((re)=>{
-        console.log(re);
-        console.log("Hola");
+        //console.log(re);
+        //console.log("Hola");
     }).catch((err)=>{
         console.log(err);
     })

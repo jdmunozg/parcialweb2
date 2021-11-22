@@ -48,7 +48,7 @@ class Cocabecera extends React.Component{
                 justifyContent:'center',
             }
         }
-        else {
+        else if(this.state.width >= 1101 && this.state.width <= 1900){
             return {
 
                     width:'68vw',
@@ -59,6 +59,20 @@ class Cocabecera extends React.Component{
                     alignItems:'center',
                     alignContent:'center',
                     justifyContent:'center',
+                    
+            }
+        }
+        else if(this.state.width >= 1900){
+            return {
+
+                    width:'1300px',
+                    height:'100%',
+                    backgroundColor:'white',
+                    display:'flex',
+                    flexDirection:'row',
+                    alignItems:'center',
+                    alignContent:'flex-start',
+                    justifyContent:'flex-start',
                     
             }
         }
