@@ -30,7 +30,7 @@ const estiloP={
         alignItems:'center',
     },
     imagen:{
-        width:'6vw',
+        width:'7vw',
         height:'10vh',
        // backgroundColor:'white',
         display:'flex',
@@ -39,8 +39,8 @@ const estiloP={
         justifyContent:'center',
     },
     img:{
-        width:'3.5vw',
-        height:'6vh',
+        width:'60px',
+        height:'60px',
         borderRadius:'50%',
         cursor:'pointer'
     },

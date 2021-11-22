@@ -41,6 +41,8 @@ class Reco extends React.Component{
             alignItems:'center',
             justifyContent:'center',
             alignContent:'center',
+            marginTop:'2vh',
+            marginBottom:'2vh',
         }
     }
 
@@ -96,8 +98,8 @@ const estiloP={
         justifyContent:'center',
     },
     img:{
-        width:'3.5vw',
-        height:'6vh',
+        width:'50px',
+        height:'50px',
         borderRadius:'50%',
         cursor:'pointer'
     }, nombre:{
