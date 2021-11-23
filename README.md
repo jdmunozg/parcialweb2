@@ -78,14 +78,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Desktop
 ![image](https://user-images.githubusercontent.com/71720590/143128910-164bfd35-66d9-472a-98af-4d127f379fd7.png)
 
+### Login
+![image](https://user-images.githubusercontent.com/71720590/143139883-811ce500-fca5-4cba-bff9-8e08226dd24d.png)
+
+
 
 ## Components
-Este proyecto es un replica del diseño de la red social Instagram. Esta cuenta adicionalmente con un login que permite autenticación con Google. Para este, utilizamos 5 macro componentes, estos son: 
+Este proyecto es un replica del diseño de la red social Instagram. Esta cuenta adicionalmente con un login que permite autenticación con Google. Para este, utilizamos 5 macro componentes para la pantalla principal de instagram, estos son: 
 * cabecera 
 * carta
 * historias
 * LoginLayout
 * recomendaciones
 
+Para la pantalla del login utilizamos 2 macro componentes, estos son:
+* BodyLayout
+* Footer
 
-
+## Description
+* Se utilizo React para implementar la solución.
+* Se hizo uso de flex para acomodar los componenetes.
+* Se utilizó firebase para la autenticación con Google.
+* Se hizo uso de estados (true-false) para la autentificación y para los hover de los botones.
+* Se utilizó Media (un componente propio de react) para realizar el responsive de la aplicación.
