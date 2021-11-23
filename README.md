@@ -79,21 +79,5 @@ Este proyecto es un replica del diseño de la red social Instagram. Esta cuenta 
 * LoginLayout
 * recomendaciones
 
-A continuación presentaremos uno a uno los componenetes:
-
-### cabecera
-Este macro componenente cuenta con 4 componenetes internos, esto son:
-* botonesder
-* botonesiq
-* buscardor
-* header
-
-### carta
-Este macro componenente cuenta con 3 componenetes internos y un macro componente interno (contentFooter), esto son:
-* cabecera
-* footer
-* pincard
-#### contentFooter
-
 
 
