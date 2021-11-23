@@ -71,6 +71,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Learn more
 
+## Box design
+### Tablet
+![image](https://user-images.githubusercontent.com/71720590/143127866-98f2de82-eb1a-4b34-b2c2-be395fa4fadd.png)
+
+### Desktop
+![image](https://user-images.githubusercontent.com/71720590/143128910-164bfd35-66d9-472a-98af-4d127f379fd7.png)
+
+
 ## Components
 Este proyecto es un replica del diseño de la red social Instagram. Esta cuenta adicionalmente con un login que permite autenticación con Google. Para este, utilizamos 5 macro componentes, estos son: 
 * cabecera 
