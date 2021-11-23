@@ -100,11 +100,11 @@ function Pincard(){
         <Fragment>
             <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="QueBoleta" imagenD="https://picsum.photos/600/600"/>
             <Pincards imagen='https://picsum.photos/200/200' estado={false} titulo="jdmunozg" imagenD="https://picsum.photos/599/599"/>
-            <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="mpvesgap" imagenD="https://picsum.photos/598/600"/>
-            <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="mpvesgap" imagenD="https://picsum.photos/598/600"/>
-            <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="mpvesgap" imagenD="https://picsum.photos/598/600"/>
-            <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="mpvesgap" imagenD="https://picsum.photos/598/600"/>
-            <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="mpvesgap" imagenD="https://picsum.photos/598/600"/>
+            <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="nsalazarv" imagenD="https://picsum.photos/598/600"/>
+            <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="nicosalaz" imagenD="https://picsum.photos/598/600"/>
+            <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="marvic" imagenD="https://picsum.photos/598/600"/>
+            <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="arosasc" imagenD="https://picsum.photos/598/600"/>
+            <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="ccarabalic" imagenD="https://picsum.photos/598/600"/>
         </Fragment>
         
     )
