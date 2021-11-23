@@ -10,7 +10,7 @@ const styles = {
     general:{
         width:'100vw',
         height:'100vh',
-        backgroundColor:'white',
+        backgroundColor:'#FAFAFA',
         display:'flex',
         flexFlow:'row nowrap',
         justifyContent:'center'
@@ -18,7 +18,7 @@ const styles = {
     box_content:{
         width:'60vw',
         height:'100%',
-        backgroundColor:'white',
+        backgroundColor:'#FAFAFA',
         display:'flex',
         flexFlow:'colum',
         justifyContent:'space-around',
@@ -33,7 +33,7 @@ const styles = {
     box_img:{
         width:'50%',
         height:'90%',
-        backgroundColor:'white',
+        backgroundColor:'#FAFAFA',
     },
     letters:{
         width:'100%',

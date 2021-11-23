@@ -101,6 +101,10 @@ function Pincard(){
             <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="QueBoleta" imagenD="https://picsum.photos/600/600"/>
             <Pincards imagen='https://picsum.photos/200/200' estado={false} titulo="jdmunozg" imagenD="https://picsum.photos/599/599"/>
             <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="mpvesgap" imagenD="https://picsum.photos/598/600"/>
+            <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="mpvesgap" imagenD="https://picsum.photos/598/600"/>
+            <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="mpvesgap" imagenD="https://picsum.photos/598/600"/>
+            <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="mpvesgap" imagenD="https://picsum.photos/598/600"/>
+            <Pincards imagen='https://picsum.photos/200/200' estado={true} titulo="mpvesgap" imagenD="https://picsum.photos/598/600"/>
         </Fragment>
         
     )
