@@ -1,6 +1,7 @@
 import React from 'react';
 import imagen from '../../../phones.PNG'
 import letter from '../../../letrero.PNG'
+import icon from '../../../anonymous-person.jpg'
 import { firebase } from '../../../firebase-config';
 import {signInWithPopup,getAuth} from 'firebase/auth';
 import 'firebase/compat/auth';
@@ -72,13 +73,18 @@ const styles = {
         width:'60%',
         height:'20%',
         color:'white'
+    },
+    img:{
+        width:'100%',
+        height:'100%',
+        borderRadius:'50%',
     }
 }
 
 const signIn = () =>{
     const provider = new firebase.auth.GoogleAuthProvider();
     signInWithPopup(getAuth(),provider).then((re)=>{
-        //console.log(re);
+        console.log(re);
         //console.log("Hola");
     }).catch((err)=>{
         console.log(err);
@@ -98,7 +104,7 @@ const BodyLogin = () => {
                     </div>
                     <div style={styles.bodyRegister}>
                         <div style={styles.icon}>
-                            
+                            <img style={styles.img} src={icon} alt="no hay nada" />
                         </div>
                         <button style={styles.signIn} onClick={signIn} >SignIn With Google</button>
                     </div>

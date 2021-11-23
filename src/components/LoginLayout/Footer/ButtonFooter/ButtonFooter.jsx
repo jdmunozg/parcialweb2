@@ -4,7 +4,8 @@ const styles={
     link:{
         textDecoration: 'none',
         fontSize:'12px',
-        color:'#8E8E8E'
+        color:'#8E8E8E',
+        fontFamily:"'M PLUS 1', sans-serif",
     },
 }
 

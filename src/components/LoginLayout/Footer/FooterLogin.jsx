@@ -28,6 +28,16 @@ const styles={
         flexFlow:'row nowrap',
         justifyContent:' space-evenly ',
         alignSelf:'center'
+    },
+    thirdRow:{
+        width:'220px',
+        height:'30px',
+        backgroundColor:'transparent',
+        display:'flex',
+        flexFlow:'row nowrap',
+        justifyContent:'space-around',
+        alignSelf:'center',
+        padding:'5px 0px 0px 0px'
     }
 }
 
@@ -56,6 +66,11 @@ const FooterLogin = () => {
                 <ButtonFooter text="Casa y jardín"/>
                 <ButtonFooter text="Música"/>
                 <ButtonFooter text="Artes visuales"/>
+
+            </div>
+            <div style={styles.thirdRow}>
+                <ButtonFooter text="Español"/>
+                <ButtonFooter text="© 2021 Instagram from Meta"/>
 
             </div>
         </div>
