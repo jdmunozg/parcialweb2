@@ -156,14 +156,12 @@ const estiloC ={
     estiloCabecera :{
         width:'100%',
         height:'50px',
-        //backgroundColor:'blue',
         display:'flex',
         backgroundColor:'white',
     },
     estiloiconosUno:{
         width:'50%',
         height:'100%',
-        //backgroundColor:'green',
         backgroundColor:'white',
         display:'flex',
         alignItems:'center',
@@ -180,7 +178,6 @@ const estiloC ={
     estiloContentDos:{
         width:'50%',
         height:'100%',
-        //backgroundColor:'yellow',
         display:'flex',
         alignItems:'center',
         justifyContent:'flex-end',

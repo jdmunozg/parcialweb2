@@ -117,7 +117,6 @@ const estiloComments={
         backgroundColor:'white',
     },
     estiloMegusta:{
-        //width:'100%',
         height:'20px',
         backgroundColor:'white',
         marginTop:'10px',
