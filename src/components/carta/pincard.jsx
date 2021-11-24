@@ -80,18 +80,29 @@ class Pincards extends React.Component{
             border:'1px solid #ecf0f1',
             }
         }
-        else if(this.state.width >= 1441 ){
+        else if(this.state.width >= 1441 && this.state.width <= 2200){
             this.tamano = '600px';
             return{
             width:'600px',
             height:'880px',
-            marginLeft:'650px',
+            marginLeft:'400px',
             marginRight:'1vw',
             marginTop:'2vh',
             marginBottom:'2vh',
             border:'1px solid #ecf0f1',
             }
         }
+        else{
+            return{
+                width:'600px',
+                height:'880px',
+                marginLeft:'650px',
+                marginRight:'1vw',
+                marginTop:'2vh',
+                marginBottom:'2vh',
+                border:'1px solid #ecf0f1',
+        }
+    }
     }
             
     render(){

@@ -19,6 +19,7 @@ const estiloPin={
         backgroundColor:'transparent',
         cursor:'pointer',
         margin: '0 8px',
+        transition: 'all 1s ease-out',
     },
     profiel:{
         background:'linear-gradient(36deg, rgb(255,201,0) 13%, rgb(255,0,95) 73%, rgb(255,9,237) 100%)',
@@ -30,6 +31,7 @@ const estiloPin={
         alignItems:'center',
         alignContent:'center',
         justifyContent:'center',
+        transition: 'all 1s ease-out',
     },
     imagenes:{
         width:'58px',
@@ -37,7 +39,8 @@ const estiloPin={
         borderRadius:'50%',
         padding:'0',
         margin:'0',
-        border:'solid 4px #fff'
+        border:'solid 4px #fff',
+        transition: 'all 1s ease-out',
     },
     texto:{
         textAlign:'center',
@@ -45,6 +48,7 @@ const estiloPin={
         fontFamily:"sans-serif",
         fontSize:'12px',
         backgroundColor:'white',
+        transition: 'all 1s ease-out',
     }
 }
 

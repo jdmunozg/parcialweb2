@@ -141,12 +141,21 @@ class Recomendacion extends React.Component{
                 marginLeft:'10vw',
             }
         }
-        else if(this.state.width >= 1441 ){
+        else if(this.state.width >= 1441 && this.state.width <= 2200){
             return{
                 position:'fixed',
                 width:'300px',
                 height:'300px',
-                backgroundColor:'red',
+                top:'100px',
+                left:'900px',
+                marginLeft:'10vw',
+            }
+        }
+        else{
+            return{
+                position:'fixed',
+                width:'300px',
+                height:'300px',
                 top:'100px',
                 left:'1100px',
                 marginLeft:'10vw',

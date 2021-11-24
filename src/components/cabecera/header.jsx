@@ -110,6 +110,7 @@ const estiloHeader ={
         borderBottom:'1px solid  #ecf0f1 ',
         position:'fixed',
         top:'0',
+        zIndex:'1',
     },
 }
 
