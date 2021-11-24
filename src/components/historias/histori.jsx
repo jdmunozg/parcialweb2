@@ -28,7 +28,7 @@ class Historia extends React.Component{
                 height:'100px',
                 marginLeft:'0vw',
                 marginRight:'0vw',
-                marginTop:'9vh',
+                marginTop:'13vh',
             }
         }
         else if(this.state.width >= 623 && this.state.width <= 1000){
@@ -40,11 +40,20 @@ class Historia extends React.Component{
                 marginTop:'72px',
             }
         }
-        else {
+        else if(this.state.width >= 1024 && this.state.width <= 1440){
             return {
                 width:'600px',
                 height:'100px',
-                marginLeft:'15vw',
+                marginLeft:'12vw',
+                marginRight:'1vw',
+                marginTop:'72px',
+            }
+        }
+        else if(this.state.width >= 1441 ){
+            return {
+                width:'600px',
+                height:'100px',
+                marginLeft:'650px',
                 marginRight:'1vw',
                 marginTop:'72px',
             }
@@ -112,7 +121,23 @@ class CirculosHistoria extends React.Component{
                 overflowY:'hidden',
             }
         }
-        else {
+        else if(this.state.width >= 1001 && this.state.width <= 1440){
+            return {
+                width:'600px',
+                height:'30px',
+                display:'flex',
+                flexDirection:'row',
+                alignContent:'center',
+                alignItems:'center',
+                border: 'solid 1px #ccc',
+                borderRadius:'3px',
+                padding:'40px 0',
+                backgroundColor:'white',
+                overflow: 'scroll',
+                overflowY:'hidden',
+            }
+        }
+        else if(this.state.width >= 1441 ){
             return {
                 width:'600px',
                 height:'30px',

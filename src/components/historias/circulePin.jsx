@@ -18,7 +18,7 @@ const estiloPin={
         border:'0',
         backgroundColor:'transparent',
         cursor:'pointer',
-        margin: '0 5px',
+        margin: '0 8px',
     },
     profiel:{
         background:'linear-gradient(36deg, rgb(255,201,0) 13%, rgb(255,0,95) 73%, rgb(255,9,237) 100%)',

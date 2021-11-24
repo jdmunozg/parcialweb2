@@ -6,7 +6,7 @@ import Footer from "./footer";
 function Imagen (props){
     return(
         <div style={estiloImg.imgen}>
-            <img src={props.imagen} style={estiloImg.imgw} alt='Falta'>
+            <img src={props.imagen}  style={estiloImg.imgw} alt='No'>
             </img>
         </div>
     )
@@ -29,6 +29,7 @@ class Pincards extends React.Component{
         super(props);
         this.state = { width: 0, height: 0 };
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+        this.tama = '';
     }
     
     componentDidMount() {
@@ -46,6 +47,7 @@ class Pincards extends React.Component{
 
     estiloPincard(){
         if(this.state.width <= 688){
+            this.tamano = '97vw';
             return {
                 width:'97vw',
                 height:'880px',
@@ -56,6 +58,7 @@ class Pincards extends React.Component{
             }
         }
         else if(this.state.width >= 623 && this.state.width <= 1000){
+            this.tamano = '520px';
             return {
                 width:'520px',
                 height:'880px',
@@ -65,11 +68,24 @@ class Pincards extends React.Component{
                 border:'1px solid #ecf0f1',
             }
         }
-        else {
+        else if(this.state.width >= 1024 && this.state.width <= 1440){
+            this.tamano = '600px';
             return {
             width:'600px',
             height:'880px',
-            marginLeft:'15vw',
+            marginLeft:'12vw',
+            marginRight:'1vw',
+            marginTop:'2vh',
+            marginBottom:'2vh',
+            border:'1px solid #ecf0f1',
+            }
+        }
+        else if(this.state.width >= 1441 ){
+            this.tamano = '600px';
+            return{
+            width:'600px',
+            height:'880px',
+            marginLeft:'650px',
             marginRight:'1vw',
             marginTop:'2vh',
             marginBottom:'2vh',
@@ -82,7 +98,7 @@ class Pincards extends React.Component{
             return(
                 <div style={this.estiloPincard()}>
                     <Cabecera imagen={this.props.imagen} estado={this.props.estado} titulo={this.props.titulo}/>
-                    <Imagen imagen={this.props.imagenD}/>
+                    <Imagen imagen={this.props.imagenD} tamano={this.tamano}/>
                     <Footer/>
                 </div>
             )

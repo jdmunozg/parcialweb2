@@ -108,7 +108,6 @@ class Recomendacion extends React.Component{
                 position:'fixed',
                 width:'210px',
                 height:'300px',
-                backgroundColor:'red',
                 top:'13vh',
                 right:'1vw',
                 marginLeft:'10vw',
@@ -118,7 +117,6 @@ class Recomendacion extends React.Component{
                 position:'fixed',
                 width:'280px',
                 height:'300px',
-                backgroundColor:'red',
                 top:'13vh',
                 right:'1vw',
                 marginLeft:'10vw',
@@ -128,7 +126,6 @@ class Recomendacion extends React.Component{
                 position:'fixed',
                 width:'300px',
                 height:'300px',
-                backgroundColor:'red',
                 top:'13vh',
                 right:'5vw',
                 marginLeft:'10vw',
@@ -139,9 +136,8 @@ class Recomendacion extends React.Component{
                 position:'fixed',
                 width:'300px',
                 height:'300px',
-                backgroundColor:'red',
                 top:'13vh',
-                right:'10vw',
+                left:'750px',
                 marginLeft:'10vw',
             }
         }
@@ -152,7 +148,7 @@ class Recomendacion extends React.Component{
                 height:'300px',
                 backgroundColor:'red',
                 top:'100px',
-                left:'900px',
+                left:'1100px',
                 marginLeft:'10vw',
             }
         }

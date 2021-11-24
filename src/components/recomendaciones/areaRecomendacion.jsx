@@ -36,7 +36,6 @@ class Reco extends React.Component{
         return{
             width:'100%',
             height:'60px',
-            backgroundColor:'purple',
             display:'flex',
             alignItems:'center',
             justifyContent:'center',
@@ -128,7 +127,6 @@ const estiloP={
         alignItems:'center',
         justifyContent:'center',
         fontFamily:"sans-serif",
-        cursor:'pointer',
         fontSize:'13px',
         color:' #5dade2 ',
     },

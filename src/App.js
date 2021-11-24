@@ -19,7 +19,7 @@ const App = () => {
   })
   if (isUserSignIn === true) {
       return( <div>
-        <Media query="(max-width: 999px)">
+        <Media query="(max-width: 1100px)">
           {(matches)=>{
               return matches ? Noexiste() : ExsiteS();
           }}
