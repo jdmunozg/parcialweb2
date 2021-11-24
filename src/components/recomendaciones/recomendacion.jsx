@@ -25,16 +25,13 @@ const estiloP={
     perfil:{
         width:'100%',
         height:'80px',
-        //backgroundColor:'white',
         display:'flex',
         alignItems:'center',
     },
     imagen:{
         width:'7vw',
         height:'10vh',
-       // backgroundColor:'white',
         display:'flex',
-        //flexDirection:'column',
         alignItems:'center',
         justifyContent:'center',
     },
@@ -47,7 +44,6 @@ const estiloP={
     nombre:{
         width:'100%',
         height:'10vh',
-       // backgroundColor:'white',
         display:'flex',
         flexDirection:'row',
         alignItems:'center',
@@ -60,20 +56,17 @@ const estiloP={
         flexDirection:'column',
         alignItems:'center',
         justifyContent:'center',
-        //backgroundColor:'white',
     },
     inferior:{
         fontFamily:"sans-serif",
         fontSize:'12px',
         color:' #979a9a ',
-       // backgroundColor:'white',
     },
     superior:{
         fontFamily:"sans-serif",
         fontSize:'13px',
         fontWeight: " bolder",
         cursor:'pointer',
-        //backgroundColor:'white',
     },
     cambiar:{
         width:'100%',
@@ -86,11 +79,7 @@ const estiloP={
         cursor:'pointer',
         fontSize:'13px',
         color:' #5dade2 ',
-        //backgroundColor:'white',
     },
-    normal:{
-        //backgroundColor:'white',
-    }
 }
 
 class Recomendacion extends React.Component{

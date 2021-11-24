@@ -21,9 +21,7 @@ const estiloPin={
         margin: '0 5px',
     },
     profiel:{
-       // background:'rgb(255,201,0)',
         background:'linear-gradient(36deg, rgb(255,201,0) 13%, rgb(255,0,95) 73%, rgb(255,9,237) 100%)',
-        //padding:'2px 2px 2px 2px',
         boxSizing:'border-box',
         width:'70px',
         height:'70px',
@@ -45,7 +43,6 @@ const estiloPin={
         textAlign:'center',
         padding:'2px 0',
         fontFamily:"sans-serif",
-        //fontWeight: " bolder",
         fontSize:'12px',
         backgroundColor:'white',
     }

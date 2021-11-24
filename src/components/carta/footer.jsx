@@ -9,7 +9,6 @@ class Construcctorfooter extends React.Component{
         return{
             width:'100%',
             height:'213px',
-            backgroundColor:'green',
         }
     }
 

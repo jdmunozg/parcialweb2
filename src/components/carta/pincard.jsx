@@ -50,7 +50,6 @@ class Pincards extends React.Component{
             return {
                 width:'97vw',
                 height:'880px',
-                //backgroundColor:'red',
                 marginLeft:'0vw',
                 marginRight:'0vw',
                 marginTop:'1.5vh',
@@ -61,7 +60,6 @@ class Pincards extends React.Component{
             return {
                 width:'520px',
                 height:'880px',
-                //backgroundColor:'red',
                 marginLeft:'22vw',
                 marginRight:'1vw',
                 marginTop:'4vh',
@@ -72,7 +70,6 @@ class Pincards extends React.Component{
             return {
             width:'600px',
             height:'880px',
-            //backgroundColor:'red',
             marginLeft:'15vw',
             marginRight:'1vw',
             marginTop:'2vh',

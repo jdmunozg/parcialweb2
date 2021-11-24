@@ -53,7 +53,6 @@ class Reco extends React.Component{
             fontSize:'13px',
             fontWeight: " bolder",
             cursor:'pointer',
-                //backgroundColor:'white',
             }
         }
         else{
@@ -62,7 +61,6 @@ class Reco extends React.Component{
                 fontSize:'13px',
                 fontWeight: " bolder",
                 textDecoration: 'underline',
-                //backgroundColor:'white',
                 cursor:'pointer',
             }
         }
@@ -91,9 +89,7 @@ const estiloP={
     imagen:{
         width:'6vw',
         height:'100%',
-       // backgroundColor:'white',
         display:'flex',
-        //flexDirection:'column',
         alignItems:'center',
         justifyContent:'center',
     },
@@ -105,7 +101,6 @@ const estiloP={
     }, nombre:{
         width:'100%',
         height:'100%',
-       // backgroundColor:'white',
         display:'flex',
         flexDirection:'row',
         alignItems:'center',
@@ -118,13 +113,11 @@ const estiloP={
         flexDirection:'column',
         alignItems:'center',
         justifyContent:'center',
-        //backgroundColor:'white',
     },
     inferior:{
         fontFamily:"sans-serif",
         fontSize:'12px',
         color:' #979a9a ',
-       // backgroundColor:'white',
     },
     
     cambiar:{
@@ -138,7 +131,6 @@ const estiloP={
         cursor:'pointer',
         fontSize:'13px',
         color:' #5dade2 ',
-        //backgroundColor:'white',
     },
     des:{
         fontFamily:"sans-serif",
@@ -166,12 +158,10 @@ const estiloArea={
     area:{
         width:'100%',
         height:'100%',
-        //backgroundColor:'pink',
     },
     sugerencia:{
         width:'100%',
         height:'30px',
-        //backgroundColor:'blue',
         fontFamily:"sans-serif",
         display:'flex',
         

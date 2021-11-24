@@ -18,7 +18,6 @@ class TituloC extends React.Component{
             return{
                 width:'480px',
                 height:'100%',
-                //backgroundColor:'red',
                 marginLeft:'0.3vw',
                 display:'flex',
                 alignItems:'center',

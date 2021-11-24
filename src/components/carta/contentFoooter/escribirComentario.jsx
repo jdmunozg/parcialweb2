@@ -25,20 +25,16 @@ class Inputs extends React.Component{
     estiloBoton(){
         if(this.state.value === ''){
             return{
-                //width:'76px',
                 fontFamily:"sans-serif",
                 fontSize:'13.5px',
                 color:'  #85c1e9  ',
                 fontWeight: " bolder",
                 border:'0',
                 backgroundColor:'white',
-                //cursor:'pointer',
-                //disabled:'true',
             }
         }
         else{
             return{
-                //width:'76px',
                 fontFamily:"sans-serif",
                 fontSize:'13.5px',
                 color:' #3498db ',
@@ -114,7 +110,6 @@ const estiloEscribe={
         width:'20%',
         height:'50px',
         backgroundColor:'white',
-        //marginLeft:'0px',
         display:'flex',
         alignItems:'center',
         justifyContent:'center',
