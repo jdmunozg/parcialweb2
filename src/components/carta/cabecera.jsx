@@ -117,7 +117,6 @@ const estiloImgen={
     estiloIcono:{
         width:'50px',
         height:'50px',
-        //backgroundColor:'yellow',
         display:'flex',
         alignItems:'center',
         alignContent:'center',
@@ -158,7 +157,6 @@ class Cabe extends React.Component{
             return {
                 width:'97vw',
                 height:'65px',
-                //backgroundColor:'green',
                 display:'flex',
                 alignItems:'center',
                 alignContent:'centar',
@@ -170,7 +168,6 @@ class Cabe extends React.Component{
             return {
                 width:'520px',
                 height:'65px',
-                //backgroundColor:'green',
                 display:'flex',
                 alignItems:'center',
                 alignContent:'centar',
@@ -183,7 +180,6 @@ class Cabe extends React.Component{
             return {
             width:'600px',
             height:'65px',
-            //backgroundColor:'green',
             display:'flex',
             alignItems:'center',
             alignContent:'centar',

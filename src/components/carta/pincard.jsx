@@ -16,7 +16,6 @@ const estiloImg={
     imgen:{
         width:'100%',
         height:'600px',
-        //backgroundColor:'green',
     },
     imgw:{
         width:'100%',
