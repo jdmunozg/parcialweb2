@@ -57,7 +57,7 @@ class Pincards extends React.Component{
                 border:'1px solid #ecf0f1',
             }
         }
-        else if(this.state.width >= 623 && this.state.width <= 1000){
+        else if(this.state.width >= 689 && this.state.width <= 1000){
             this.tamano = '520px';
             return {
                 width:'520px',
@@ -68,7 +68,7 @@ class Pincards extends React.Component{
                 border:'1px solid #ecf0f1',
             }
         }
-        else if(this.state.width >= 1024 && this.state.width <= 1440){
+        else if(this.state.width >= 1001 && this.state.width <= 1440){
             this.tamano = '600px';
             return {
             width:'600px',

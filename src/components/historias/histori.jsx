@@ -40,7 +40,7 @@ class Historia extends React.Component{
                 marginTop:'72px',
             }
         }
-        else if(this.state.width >= 1024 && this.state.width <= 1440){
+        else if(this.state.width >= 1001 && this.state.width <= 1440){
             return {
                 width:'600px',
                 height:'100px',
