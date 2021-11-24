@@ -1,4 +1,3 @@
-//import React from "react";
 import Header from './components/cabecera/header';
 import Histori from './components/historias/histori'
 import Pincard from "./components/carta/pincard";
